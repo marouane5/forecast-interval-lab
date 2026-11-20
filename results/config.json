@@ -1,0 +1,19 @@
+{
+  "design": {
+    "period": 24,
+    "train_end": 384,
+    "test_start": 512,
+    "shift": 768,
+    "length": 1024
+  },
+  "seeds": [
+    7,
+    17,
+    27,
+    37,
+    47
+  ],
+  "target_coverage": 0.9,
+  "calibration_window": 128,
+  "numpy_version": "2.3.5"
+}
